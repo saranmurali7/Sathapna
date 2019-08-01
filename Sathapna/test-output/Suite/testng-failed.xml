@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="script.CorporateAuthorization_Test">
+        <methods>
+          <include name="openApp"/>
+          <include name="CorporateAuthorization"/>
+          <include name="closeApp"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- script.CorporateAuthorization_Test -->
+      <class name="script.EntityCIFMappingCreateTest">
+        <methods>
+          <include name="openApp"/>
+          <include name="login"/>
+          <include name="EntityCIFMappingCreation"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.EntityCIFMappingCreateTest -->
+      <class name="script.CorpCreateWorkgroupCreation_Test">
+        <methods>
+          <include name="login"/>
+          <include name="openApp"/>
+          <include name="WorkgroupCreation"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.CorpCreateWorkgroupCreation_Test -->
+      <class name="script.DeLinkCIFCreateTest">
+        <methods>
+          <include name="openApp"/>
+          <include name="DelinkCIFCreate"/>
+          <include name="login"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.DeLinkCIFCreateTest -->
+      <class name="script.EntityCIFMappingAuthorizeTest">
+        <methods>
+          <include name="login"/>
+          <include name="openApp"/>
+          <include name="EntityCIFMappingAuthorize"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.EntityCIFMappingAuthorizeTest -->
+      <class name="script.UserLimitCreation_Test">
+        <methods>
+          <include name="openApp"/>
+          <include name="login"/>
+          <include name="UserLimitCreation"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.UserLimitCreation_Test -->
+      <class name="script.UserRegistrationCreation_Test">
+        <methods>
+          <include name="login"/>
+          <include name="UserRegistrationCreation"/>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.UserRegistrationCreation_Test -->
+      <class name="script.MapWorkgroupAuthorization_Test">
+        <methods>
+          <include name="openApp"/>
+          <include name="login"/>
+          <include name="MapWorkgroupAuthorization"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.MapWorkgroupAuthorization_Test -->
+      <class name="script.UserLimitAuthorization_Test">
+        <methods>
+          <include name="openApp"/>
+          <include name="UserLimitAuthorization"/>
+          <include name="login"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.UserLimitAuthorization_Test -->
+      <class name="script.CorpCreateWorkgroupAuthorization_Test">
+        <methods>
+          <include name="CreateWorkgroupAuthorization"/>
+          <include name="login"/>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.CorpCreateWorkgroupAuthorization_Test -->
+      <class name="script.CorporateRegistration_Test">
+        <methods>
+          <include name="openApp"/>
+          <include name="login"/>
+          <include name="CorporateRegistration"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.CorporateRegistration_Test -->
+      <class name="script.MapWorkgroupcreation_Test">
+        <methods>
+          <include name="openApp"/>
+          <include name="MapWorkgroupcreation"/>
+          <include name="login"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.MapWorkgroupcreation_Test -->
+      <class name="script.BankAdminAuthorize_Test">
+        <methods>
+          <include name="login"/>
+          <include name="openApp"/>
+          <include name="BankAdminAuthorizeTest"/>
+          <include name="logout"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.BankAdminAuthorize_Test -->
+      <class name="script.CIFAccountMappingAuthorizeTest">
+        <methods>
+          <include name="openApp"/>
+          <include name="CIFAccountMappingAuth"/>
+          <include name="login"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.CIFAccountMappingAuthorizeTest -->
+      <class name="script.UserAuthorization_Test">
+        <methods>
+          <include name="openApp"/>
+          <include name="login"/>
+          <include name="UserAuthorization"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.UserAuthorization_Test -->
+      <class name="script.CIFAccountMappingCreateTest">
+        <methods>
+          <include name="openApp"/>
+          <include name="CIFAccountMappingCreation"/>
+          <include name="login"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.CIFAccountMappingCreateTest -->
+      <class name="script.BankAdminCreate_Test">
+        <methods>
+          <include name="login"/>
+          <include name="openApp"/>
+          <include name="BankAdminCreateTest"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.BankAdminCreate_Test -->
+      <class name="script.DeLinkAccountTest">
+        <methods>
+          <include name="openApp"/>
+          <include name="login"/>
+          <include name="DeLinkAccount"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.DeLinkAccountTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

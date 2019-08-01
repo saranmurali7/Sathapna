@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test" parallel="tests">
+		<classes>
+			<class name="script.BankAdminCreate_Test" />
+			<class name="script.BankAdminAuthorize_Test" />
+			<class name="script.ValidLogin_Logout_Test" />
+			<class name="script.CorporateRegistration_Test" />
+			<class name="script.CorporateAuthorization_Test" />
+			<class name="script.UserLimitCreation_Test" />
+			<class name="script.UserLimitAuthorization_Test" />
+			<class name="script.CorpCreateWorkgroupCreation_Test" />
+			<class name="script.CorpCreateWorkgroupAuthorization_Test" />
+			<class name="script.UserRegistrationCreation_Test" />
+			<class name="script.UserAuthorization_Test" />
+			<class name="script.MapWorkgroupcreation_Test" />
+			<class name="script.MapWorkgroupAuthorization_Test" />
+			<class name="script.EntityCIFMappingCreateTest" />
+			<class name="script.EntityCIFMappingAuthorizeTest" />
+			<class name="script.CIFAccountMappingCreateTest" />
+			<class name="script.CIFAccountMappingAuthorizeTest" />
+			<class name="script.DeLinkCIFCreateTest" />
+			<class name="script.DeLinkAccountTest" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
